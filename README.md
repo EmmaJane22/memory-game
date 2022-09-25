@@ -9,19 +9,19 @@
 ### Colour Scheme
 ### Typography
 ### Wireframes
-[Back to top](#WordWise)
+[Back to top](#table-of-contents)
 
 ## Features
 
 ### General
 
-[Back to top](#WordWise)
+[Back to top](#table-of-contents)
 ## Technologies Used
 
 ### Languages Used
 ### Frameworks, Libraries and Programs Used
 
-[Back to top](#WordWise)
+[Back to top](#table-of-contents)
 
 ## Testing
 
@@ -30,22 +30,22 @@
 ### Accessibility
 ### Tools Testing
 ### Manual Testing
-[Back to top](#WordWise)
+[Back to top](#table-of-contents)
 
 ## Finished Product
-[Back to top](#WordWise)
+[Back to top](#table-of-contents)
 
 ## Deployment
 ### GitHub Pages
-[Back to top](#WordWise)
+[Back to top](#table-of-contents)
 
 ## Credits
 
 ### Content
 ### Media
 ### Code
-[Back to top](#WordWise)
+[Back to top](#table-of-contents)
 
 
 ## Acknowledgements
-[Back to top](#WordWise)
+[Back to top](#table-of-contents)
