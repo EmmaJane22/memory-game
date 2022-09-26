@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid red;
+    perspective: 1000px;
 }
 
 /* --- cards --- */
@@ -28,6 +29,8 @@ body {
     position: relative;
     margin: 5px;
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
 }
 
 .memory-card:active {
@@ -48,4 +51,9 @@ body {
     border: 2px solid black;
     border-radius: 5px;
     background: pink;
+    backface-visibility: hidden;
+}
+
+.front-face {
+    transform: rotateY(180deg);
 }
