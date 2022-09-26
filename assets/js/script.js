@@ -16,7 +16,7 @@ function flipCard() {
         secondCard = this;
 
         //check cards match
-        if (firstCard.dataset.cardImage === secondCard.dataset.cardImage) {
+        if (firstCard.dataset.framework === secondCard.dataset.framework) {
             //cards match
             firstCard.removeEventListener('click', flipCard);
             secondCard.removeEventListener('click', flipCard);
