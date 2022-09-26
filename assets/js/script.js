@@ -14,8 +14,20 @@ function flipCard() {
         //second click
         hasFlippedCard = false;
         secondCard = this;
-    }
 
+        //check cards match
+        if (firstCard.dataset.cardImage === secondCard.dataset.cardImage) {
+            //cards match
+            firstCard.removeEventListener('click', flipCard);
+            secondCard.removeEventListener('click', flipCard);
+        } else {
+            //not a match
+            setTimeout(() => {
+                firstCard.classList.remove('flip');
+                secondCard.classList.remove('flip');
+            }, 1500);
+        }
+    }
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
