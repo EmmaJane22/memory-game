@@ -10,9 +10,12 @@ function flipCard() {
         //first click
         hasFlippedCard = true;
         firstCard = this;
-
-        console.log({hasFlippedCard,firstCard});
+    } else {
+        //second click
+        hasFlippedCard = false;
+        secondCard = this;
     }
+
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
