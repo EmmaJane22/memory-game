@@ -75,6 +75,7 @@
 ## Credits
 
 ### Content
+Memory Card Game tutorial: https://www.youtube.com/watch?v=ZniVgo8U7ek
 ### Media
 ### Code
 [Back to top](#table-of-contents)
