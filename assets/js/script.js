@@ -10,13 +10,15 @@ function flipCard() {
         //first click
         hasFlippedCard = true;
         firstCard = this;
-    } else {
-        //second click
-        hasFlippedCard = false;
-        secondCard = this;
 
-        checkForMatch();        
+        return;
     }
+
+    //second click
+    hasFlippedCard = false;
+    secondCard = this;
+
+    checkForMatch();
 }
 
 //check cards match
