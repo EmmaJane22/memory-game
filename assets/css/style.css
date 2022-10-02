@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
 /* --- generic styling --- */
 * {
     padding: 0;
@@ -9,6 +11,8 @@ body {
     height: 100vh;
     display: flex;
     background: green;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
 }
 
 /* --- game container --- */
