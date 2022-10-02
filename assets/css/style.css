@@ -8,11 +8,14 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
+    max-width: 100%;
     display: flex;
+    flex-direction: column;
     background: green;
     font-family: 'Caveat', cursive;
     font-weight: 500;
+    position: relative;
 }
 
 h1 {
@@ -24,7 +27,7 @@ h1 {
 
 /* --- Navbar styling --- */
 .navbar {
-    line-height: 20px;
+    line-height: 10px;
 }
 
 .navbar a {
@@ -41,6 +44,62 @@ h1 {
 .navbar a:hover {
     color: #fafafa;
 } 
+
+/* ---Home page styling --- */
+
+.instructions-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.instructions {
+    max-width: 800px;
+    border-radius: 15px;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 20px;
+}
+
+.instructions h3 {
+    margin-bottom: 20px;
+    font-size: 2.25rem;
+}
+
+.instructions p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game-btn {
+    align-self: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+button {
+    margin: 30px auto;
+    border-style: none;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+    transform: scale(1);
+    color: white;
+    background-color: blue;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button:active {
+    transform: scale(1.2);
+}
+
 
 /* --- score panel styling ---*/ 
 .score-panel {
