@@ -29,7 +29,6 @@
 7. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
-    3. [Code](#code)
 8. [Acknowledgements](#acknowledgements)
 
 ***
@@ -76,8 +75,12 @@
 
 ### Content
 Memory Card Game tutorial: https://www.youtube.com/watch?v=ZniVgo8U7ek
+W3Schools: Creating a button as a link: https://www.w3schools.com/html/html_links.asp
+Move counter: StackOverflow - https://stackoverflow.com/questions/64212395/how-do-i-add-a-counter-in-my-javascript-game
+
+
 ### Media
-### Code
+
 [Back to top](#table-of-contents)
 
 
