@@ -106,18 +106,27 @@ button:active {
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-self: center;
     width: 700px;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
+
 /* --- game container --- */
+
+.game-container-outer {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 .memory-game {
     width: 640px;
-    height: 640px;
+    height: 650px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid green;
     perspective: 1000px;
 }
 
