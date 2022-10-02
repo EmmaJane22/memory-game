@@ -1,4 +1,8 @@
-# Word Wise Memory Game
+# Word Wise Memory Game - Emma Scott
+
+## Live Project
+[View the live project here.](https://emmajane22.github.io/memory-game/ "View the Live game here")
+___
 
 ## Table of Contents
 1. [User Experience (UX)](#user-experience-UX)
@@ -74,9 +78,9 @@
 ## Credits
 
 ### Content
-Memory Card Game tutorial: https://www.youtube.com/watch?v=ZniVgo8U7ek
-W3Schools: Creating a button as a link: https://www.w3schools.com/html/html_links.asp
-Move counter: StackOverflow - https://stackoverflow.com/questions/64212395/how-do-i-add-a-counter-in-my-javascript-game
+*Memory Card Game tutorial: https://www.youtube.com/watch?v=ZniVgo8U7ek
+*W3Schools: Creating a button as a link: https://www.w3schools.com/html/html_links.asp
+*Move counter: StackOverflow - https://stackoverflow.com/questions/64212395/how-do-i-add-a-counter-in-my-javascript-game
 
 
 ### Media
