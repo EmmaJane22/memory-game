@@ -53,7 +53,8 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
-
+    let correct = new Audio("assets/audio/correct.mp3");
+    correct.play();
     resetBoard();
 }
 
@@ -65,7 +66,8 @@ function unflipCards() {
     setTimeout(() => {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
-
+        let wrong = new Audio("assets/audio/wrong.mp3");
+        wrong.play();
         resetBoard();
     }, 1500);
 }

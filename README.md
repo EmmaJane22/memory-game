@@ -78,9 +78,10 @@ ___
 ## Credits
 
 ### Content
-*Memory Card Game tutorial: https://www.youtube.com/watch?v=ZniVgo8U7ek
-*W3Schools: Creating a button as a link: https://www.w3schools.com/html/html_links.asp
-*Move counter: StackOverflow - https://stackoverflow.com/questions/64212395/how-do-i-add-a-counter-in-my-javascript-game
+* Memory Card Game tutorial: https://www.youtube.com/watch?v=ZniVgo8U7ek
+* W3Schools: Creating a button as a link: https://www.w3schools.com/html/html_links.asp
+* Move counter: StackOverflow - https://stackoverflow.com/questions/64212395/how-do-i-add-a-counter-in-my-javascript-game
+* Adding sound effects: https://stackoverflow.com/questions/9419263/how-to-play-audio
 
 
 ### Media
