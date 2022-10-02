@@ -4,6 +4,7 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
+/*  Card Flip */
 function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
@@ -11,26 +12,38 @@ function flipCard() {
     this.classList.add('flip');
 
     if (!hasFlippedCard) {
-        //first click
+        /* First Click 
+        * Checks if it is the first click and sets hasFlippedCard to true and sets first card to 'this' 
+        */
         hasFlippedCard = true;
         firstCard = this;
 
         return;
     }
 
-    //second click
+    /* second click */
     secondCard = this;
 
     checkForMatch();
 }
 
-//check cards match
+/* check if the cards match */
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
-    isMatch ? disableCards() : unflipCards();
+    /* Check if the cards match
+    * if the cards match, disable them
+    * if the don't match unflip them 
+    */
+    if (isMatch) {
+        disableCards();
+    } else {
+        unflipCards();
+    }
 }
 
-//cards match
+/* The cards match 
+* remove event listen to prevent them being clicked again
+*/
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
@@ -38,7 +51,9 @@ function disableCards() {
     resetBoard();
 }
 
-//not a match
+/* The cards are not a match 
+* time delay to allow user to view
+*/
 function unflipCards() {
     lockBoard = true;
     setTimeout(() => {
@@ -49,11 +64,17 @@ function unflipCards() {
     }, 1500);
 }
 
+/* The cards are not a match
+* remove event listen to prevent them being clicked again
+*/
 function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
 
+/* Shuffle Cards
+* Generate and assign a random number
+*/
 (function shuffle() {
     cards.forEach(card => {
        let randomPos = Math.floor(Math.random() *12);
