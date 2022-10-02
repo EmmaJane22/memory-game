@@ -5,6 +5,9 @@ const cards = document.querySelectorAll('.memory-card');
 let moves = 0;
 let counter = document.querySelector('.moves');
 
+let pairs = 0;
+
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -31,6 +34,10 @@ function flipCard() {
 
     checkForMatch();
     updateScoreCounter();
+
+    if (pairs === 6) {
+        winGame();
+    }
 }
 
 /* check if the cards match */
@@ -42,6 +49,8 @@ function checkForMatch() {
     */
     if (isMatch) {
         disableCards();
+        pairs++;
+
     } else {
         unflipCards();
     }
@@ -53,6 +62,9 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    /* The cards are a match: 
+    * Play 'correct' sound.
+    */
     let correct = new Audio("assets/audio/correct.mp3");
     correct.play();
     resetBoard();
@@ -66,6 +78,9 @@ function unflipCards() {
     setTimeout(() => {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
+        /* The cards are not a match: 
+        * Play 'wrong' sound.
+        */
         let wrong = new Audio("assets/audio/wrong.mp3");
         wrong.play();
         resetBoard();
@@ -97,4 +112,8 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 function updateScoreCounter() {
     moves++;
     counter.innerHTML = moves;
+}
+
+function winGame() {
+    alert('Congratulations!');
 }
