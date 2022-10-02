@@ -166,3 +166,66 @@ button:active {
 .front-face {
     transform: rotateY(180deg);
 }
+
+/* --- Media Queries --- */
+
+/* --- cards --- */
+
+@media only screen and (max-width: 1024px) {
+    .instructions {
+        width: 80%;
+    }
+
+    .memory-game {
+        width: 95%;
+        height: 950px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   .navbar a {
+        margin: 0;
+   } 
+
+   h1 {
+        font-size: 3rem;
+   }
+
+   .instructions {
+        width: 80%;
+   }
+
+   .score-panel {
+        width: 85%;
+   }
+
+   .memory-game {
+        width: 95%;
+        height: 600px;
+   }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .instructions {
+        width: 95%;
+    }
+
+    .score-panel {
+        width: 85%;
+        font-size: 1.2rem;
+    }
+
+    .memory-game {
+        width: 95%;
+        height: 500px;
+    }
+
+    .memory-card {
+        width: calc(25% - 2px);
+        height: calc(33.333% - 2px);
+        margin: 1px;
+    }
