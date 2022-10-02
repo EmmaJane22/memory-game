@@ -1,5 +1,10 @@
 const cards = document.querySelectorAll('.memory-card');
 
+/* declare the variable for the number of moves */
+
+let moves = 0;
+let counter = document.querySelector('.moves');
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -25,6 +30,7 @@ function flipCard() {
     secondCard = this;
 
     checkForMatch();
+    updateScoreCounter();
 }
 
 /* check if the cards match */
@@ -52,7 +58,7 @@ function disableCards() {
 }
 
 /* The cards are not a match 
-* time delay to allow user to view
+* Unflips cards if they don't match, time delay to allow user to view
 */
 function unflipCards() {
     lockBoard = true;
@@ -65,7 +71,7 @@ function unflipCards() {
 }
 
 /* The cards are not a match
-* remove event listen to prevent them being clicked again
+* reset the board after each round of 2 clicks
 */
 function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
@@ -82,4 +88,11 @@ function resetBoard() {
     });
 })();
 
+/* Add click event listener */
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+/* Function for counting moves */
+function updateScoreCounter() {
+    moves++;
+    counter.innerHTML = moves;
+}
