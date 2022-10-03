@@ -21,7 +21,7 @@ let firstCard, secondCard;
 function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
-
+-
     this.classList.add('flip');
 
     if (!hasFlippedCard) {
@@ -39,7 +39,7 @@ function flipCard() {
 
     checkForMatch();
     updateScoreCounter();
-
+/* Check if the game is complete with 6 matching pairs and calls the modal*/
     if (pairs === 6) {
        displayModal();       
     }
@@ -137,14 +137,7 @@ function displayModal() {
         if (event.target == modal) {
             modal.style.display = "none";
         }
-    }
-}
-
-/* Check if the game is complete with 6 matching pairs */
-function winGame() {
-    if (pairs === 6) {
-        displayModal();
-    }
+    };
 }
 
 /* Event listener to listen for a click on the play again button
