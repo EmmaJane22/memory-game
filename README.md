@@ -82,7 +82,7 @@ ___
 * W3Schools: Creating a button as a link: https://www.w3schools.com/html/html_links.asp
 * Move counter: StackOverflow - https://stackoverflow.com/questions/64212395/how-do-i-add-a-counter-in-my-javascript-game
 * Adding sound effects: https://stackoverflow.com/questions/9419263/how-to-play-audio
-
+* Creating a modal: https://www.w3schools.com/howto/howto_css_modals.asp
 
 ### Media
 * Sound Effects from Pixabay

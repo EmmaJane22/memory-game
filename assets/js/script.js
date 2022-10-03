@@ -1,4 +1,9 @@
 const cards = document.querySelectorAll('.memory-card');
+/* Access the modal*/
+const modal = document.getElementById("modal");
+
+/* Access the play again button */
+const playAgain = document.querySelector(".play-again-btn");
 
 /* declare the variable for the number of moves */
 
@@ -36,7 +41,7 @@ function flipCard() {
     updateScoreCounter();
 
     if (pairs === 6) {
-        winGame();
+       displayModal();       
     }
 }
 
@@ -114,6 +119,37 @@ function updateScoreCounter() {
     counter.innerHTML = moves;
 }
 
-function winGame() {
-    alert('Congratulations!');
+/* Function that displays the modal when the game is complete */
+function displayModal() {
+    const modalClose = document.getElementById("btnPlayAgain");
+    const feedback = document.getElementById("feedback");
+
+    feedback.innerHTML = "You completed the game in " + moves + " moves!";
+
+    /* display block when game is won */
+        modal.style.display="block";
+    /* Close the modal when the user clicks button */
+    modalClose.onclick = function() {
+        modal.style.display = "none";
+    };
+    /* Close the modal when the user clicks anywhere outside it */
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 }
+
+/* Check if the game is complete with 6 matching pairs */
+function winGame() {
+    if (pairs === 6) {
+        displayModal();
+    }
+}
+
+/* Event listener to listen for a click on the play again button
+* call resetEverything() when clicked */
+playAgain.addEventListener('click',function() {
+    modal.style.display = "none";
+    location.reload();
+});  

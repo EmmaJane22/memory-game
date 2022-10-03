@@ -73,7 +73,8 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-.game-btn {
+.game-btn,
+.play-again-btn {
     align-self: center;
     justify-content: center;
     font-size: 1.3rem;
@@ -167,6 +168,45 @@ button:active {
     transform: rotateY(180deg);
 }
 
+/* Modal */
+/* outer modal container */
+.win-game-modal {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    justify-items: center;
+    align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 20px auto;
+    border: 0.8rem solid blue;
+    width: 90%;
+    height: 90%;
+    position: relative;
+}
+
+.modal p {
+    margin: 5px 0;
+    text-align: center;
+}
 /* --- Media Queries --- */
 
 /* --- cards --- */
