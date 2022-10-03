@@ -1,7 +1,9 @@
 # Word Wise Memory Game - Emma Scott
+-------------------------------------
+## Introduction
+Welcome to my Milestone Project 2. This simple,fun game is designed to test your memory and support the learning of animal names in German. It has been developed with my son in mind, as he is learning German at GCSE level, but is also an enjoyable game for children and adults alike.
 
-## Live Project
-[View the live project here.](https://emmajane22.github.io/memory-game/ "View the Live game here")
+View the live project [here.](https://emmajane22.github.io/memory-game/ "View the Live game here")
 ___
 
 ## Table of Contents
@@ -86,9 +88,15 @@ ___
 
 ### Media
 * Sound Effects from Pixabay
+* Animal images from Freepik
+* Languages speech bubble from Pixabay
 
 [Back to top](#table-of-contents)
 
 
 ## Acknowledgements
+* Thank you to my mentor, Marcel, for helpful feedback, industry insights and recommended tools.
+* Thank you to my friends and family for frequent testing and interrogation of their opinions.
+* Thank you to the tutors and staff at Code Institute for their support.
+
 [Back to top](#table-of-contents)
