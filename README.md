@@ -47,6 +47,18 @@ ___
 ### Colour Scheme
 ### Typography
 ### Wireframes
+[Balsamiq](https://balsamiq.com/) was used to create wireframes of the game, showing the placement of different elements.
+
+Home Page
+![Home page wireframe image](assets/wireframes/home-page.png)
+
+Game Page
+![Game page wireframe image](assets/wireframes/game-page.png)
+
+Result Page
+![Result page wireframe image](assets/wireframes/result-page.png)
+
+
 [Back to top](#table-of-contents)
 
 ## Features
