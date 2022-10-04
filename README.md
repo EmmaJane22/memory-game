@@ -1,7 +1,9 @@
 # Word Wise Memory Game - Emma Scott
 -------------------------------------
 ## Introduction
-Welcome to my Milestone Project 2. This simple,fun game is designed to test your memory and support the learning of animal names in German. It has been developed with my son in mind, as he is learning German at GCSE level, but is also an enjoyable game for children and adults alike.
+Welcome to my Milestone Project 2. Word Wise is a language-themed memory card game, based on the classic game of Pelmanism. This simple,fun game is designed to test your memory and support the learning of animal names in German. It has been developed with my son in mind, as he is learning German at GCSE level, but is also an enjoyable game for children and adults alike.
+
+The game is based on a deck of 12 cards, placed face down, and the player 'flips' two cards face over each time. The object of the game is to find matching pairs of cards in the least number of moves.
 
 View the live project [here.](https://emmajane22.github.io/memory-game/ "View the Live game here")
 ___
@@ -37,14 +39,31 @@ ___
     2. [Media](#media)
 8. [Acknowledgements](#acknowledgements)
 
-***
+___
 
 
 ## User Experience (UX)
 
 ### Project Goals
+* To present a fun, engaging game. 
+* To present a clean, clear interface that is easy to navigate between the rules, the game and replaying the game.
+* To incorporate a move counter to provide the user with feedback.
+* To incorporate sound which provides the user with feedback for correct and incorrect choices.
+* To enable the user to be able to replay the game infinite times, with the cards being in different positions.
+* To provide responsive design for different sized devices.
+
 ### User Stories
+* As a player, I want the game to be fun and engaging.
+* As a player, I want to be able to read the rules of the game.
+* As a player, I want to be able to easily navigate to the game.
+* As a player, I want to know if the two cards chosen are a matching pair or not.
+* As a player, I want to know how many moves I have used as I play, and at the end of the game.
+* As a player, I want to be able to replay the game inifinite times, with the cards in different positions each time.
+
 ### Colour Scheme
+[Colormind](http://colormind.io/) was used to create a calming, neutral colour scheme that would not distract from the game board.
+![colour scheme image](assets/readme-images/color-scheme.png)
+
 ### Typography
 ### Wireframes
 [Balsamiq](https://balsamiq.com/) was used to create wireframes of the game, showing the placement of different elements.
@@ -60,18 +79,23 @@ Result Page
 
 
 [Back to top](#table-of-contents)
+___
 
 ## Features
+___
 
 ### General
 
 [Back to top](#table-of-contents)
+___
+
 ## Technologies Used
 
 ### Languages Used
 ### Frameworks, Libraries and Programs Used
 
 [Back to top](#table-of-contents)
+___
 
 ## Testing
 
@@ -81,13 +105,16 @@ Result Page
 ### Tools Testing
 ### Manual Testing
 [Back to top](#table-of-contents)
+___
 
 ## Finished Product
 [Back to top](#table-of-contents)
+___
 
 ## Deployment
 ### GitHub Pages
 [Back to top](#table-of-contents)
+___
 
 ## Credits
 
@@ -111,10 +138,8 @@ Result Page
 * Speech bubble: https://www.freepik.com/free-vector/speech-bubble-composition-with-flags
 * German flag: https://pixabay.com/vectors/germany-flag-germany-german-flag-1783774/
 
-
-
 [Back to top](#table-of-contents)
-
+___
 
 ## Acknowledgements
 * Thank you to my mentor, Marcel, for helpful feedback, industry insights and recommended tools.
