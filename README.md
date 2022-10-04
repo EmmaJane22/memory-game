@@ -88,8 +88,18 @@ ___
 
 ### Media
 * Sound Effects from Pixabay
-* Animal images from Freepik
-* Languages speech bubble from Pixabay
+
+   Images from:  
+* Badger: https://pixabay.com/photos/badger-wildlife-animal-nature-6317333/
+* Bee: https://pixabay.com/photos/bee-insects-pollinate-fly-257176/
+* Deer: https://www.freepik.com/free-photo/red-deer-nature-habitat-during-deer-rut-european-wildlife_16755900.htm
+* Fox: https://pixabay.com/photos/fox-animal-wilderness-nature-2597803/
+* Frog: https://pixabay.com/photos/frog-animal-pond-water-nature-2525994/
+* Owl: https://pixabay.com/photos/owl-bird-perched-5495859/
+* Speech bubble: https://www.freepik.com/free-vector/speech-bubble-composition-with-flags
+* German flag: https://pixabay.com/vectors/germany-flag-germany-german-flag-1783774/
+
+
 
 [Back to top](#table-of-contents)
 
