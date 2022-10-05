@@ -100,10 +100,11 @@ ___
 
 ### Frameworks, Libraries and Programs Used
 - [Balsamiq](https://balsamiq.com/) for the wireframes.
-- [AmIResponsive](https://ui.dev/amiresponsive) for the image on different devices.
+- [AmIResponsive](https://ui.dev/amiresponsive) for the mockup.
 - [JSHint JavaScript Validator](https://jshint.com/) to validate the Javascript.
 - [W3C HTML Validator](https://validator.w3.org/) to validate the HTML.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS.
+- [Google Fonts](https://fonts.google.com/) for the fonts.
 
 [Back to top](#table-of-contents)
 ___
@@ -140,8 +141,12 @@ All code passed in [JSHint JavaScript Validator](https://jshint.com/).
 ![JS Hint image](assets/readme-images/jshint.jpg)
 
 ### W3C Markup Validator
-All code passed in [W3C HTML Validator](https://validator.w3.org/).
+Home page: all code passed in [W3C HTML Validator](https://validator.w3.org/).
 ![W3C image](assets/readme-images/w3c-home.jpg)
+
+Game page: three warnings were present in [W3C HTML Validator](https://validator.w3.org/).
+![W3C image](assets/readme-images/w3c-game.jpg)
+Two warnings relate to headers missing from sections of the page that do not require headings.
   
 
 ### W3C CSS Validator
