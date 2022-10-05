@@ -55,7 +55,7 @@ ___
 ### User Stories
 * As a player, I want the game to be fun and engaging.
 * As a player, I want to be able to read the rules of the game.
-* As a player, I want to be able to easily navigate to the game.
+* As a player, I want to be able to easily navigate to the game and back to the rules if necessary.
 * As a player, I want to know if the two cards chosen are a matching pair or not.
 * As a player, I want to know how many moves I have used as I play, and at the end of the game.
 * As a player, I want to be able to replay the game inifinite times, with the cards in different positions each time.
@@ -100,10 +100,48 @@ ___
 ## Testing
 
 ### Testing User Stories
+Several members of my friends and family were asked to manually test the following features:
+
+* As a player, I want the game to be fun and engaging.
+    - Everyone who tested the game reported that they enjoyed playing it.
+* As a player, I want to be able to read the rules of the game.
+    - All users reported that the rules were clear, concise and easy to read without being too verbose.
+* As a player, I want to be able to easily navigate to the game and back to the rules if necessary.
+    - Everyone reported being able to easily find their way around the game.
+    - All hyerlinks were tested and worked correctly.
+    - All users reported being able to naviagte back to the rules.
+* As a player, I want to know if the two cards chosen are a matching pair or not.
+    - Everyone confirmed that the sound effects gave them appropriate feedback on whether the cards were a match.
+    - All testers confirmed the sound effects were 100% correct for all moves.
+    - All testers confirmed that function to flip mis-matched cards and show matching pairs worked correctly 100% of their moves.
+* As a player, I want to know how many moves I have used as I play, and at the end of the game.
+    - All users confirmed the number of moves to be accurate.
+    - Some users said they found it to be a useful feature to try to beat their own moves on another turn. Some users reported they were not interested by this feature.
+* As a player, I want to be able to replay the game inifinite times, with the cards in different positions each time.
+    - All testers confirmed that the Start Again button worked as planned, and that the cards positions were randomised every time they played again.
+    - Players were asked to play more than twice, with some playing up to ten times, and confirmed the cards were in different positions every time the game was restarted.
+    
 ### Code Validation
 ### Accessibility
 ### Tools Testing
 ### Manual Testing
+The game was tested using the following browsers:
+* Chrome
+* Microsoft Edge
+* Safari
+
+It was tested on the following devices:
+* Windows laptop - HP 15a
+* Windows PC
+* Lenovo Chrome Book
+* Samsung S7 mobile phone
+* Google Pixel 6 mobile phone
+* Samsung Galaxy S20 FE mobile phone
+* Apple iPhone 12 mini phone
+* Apple iPad 
+
+The game was tested by several members of my friends and family. They all reported that it worked without any functionality issues on all devices and browsers. They commented positively on the ease of use, and the clarity of the images, the only exception being on the iPhone mini, who reported that the words were too small to be easily read.  
+
 [Back to top](#table-of-contents)
 ___
 
@@ -113,6 +151,28 @@ ___
 
 ## Deployment
 ### GitHub Pages
+This website was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
+
+### Deployment
+The project was deployed using these steps:
+
+1. Create a repository: Log into GitHub and create a public repository named username.github.io. Make the username your username on GitHub.
+2. Go to your repository.
+3. On top right click Settings.
+4. Scroll down to GitHub Pages. Under source, select none then select main/master branch from the dropdown and press save.
+5. The page will be atomatically refreshed and a link will be generated for your live site.
+
+### Cloning
+To make a local clone of a Github repository:
+
+1. Within GitHub, navigate to the main page of the repository.
+2. Above the list of files, click on the green button entitled 'Code'.
+3. If you choose to clone using HTTPS, click on the 'copy' icon to the right of the repository URL to copy the link.
+4. Open Gitbash.
+5. Change the name of the working directory to the location where you want the cloned directory to go.
+6. Type git clone, and then paste the URL that you copied earlier.
+7. Press Enter to create your local clone.
+
 [Back to top](#table-of-contents)
 ___
 
