@@ -188,6 +188,7 @@ ___
 * W3C validator showed an unnecessary forward slash in the image self-closing tags, which I then removed.
 * JS Hint showed an unexpected expression within the checkForMatch function, which I changed to an if/else statement.
 * Javascript link unnecessary on Home page, so I removed that.  
+* DevTools showing an error getting the favicon, which was a simple error with the file path, which I resolved by entering the correct file path.
 
 [Back to top](#table-of-contents)
 ___
@@ -231,6 +232,7 @@ ___
 * Move counter: StackOverflow - https://stackoverflow.com/questions/64212395/how-do-i-add-a-counter-in-my-javascript-game
 * Adding sound effects: https://stackoverflow.com/questions/9419263/how-to-play-audio
 * Creating a modal: https://www.w3schools.com/howto/howto_css_modals.asp
+* Adding a favicon: https://www.w3schools.com/html/html_favicon.asp
 
 ### Media
 * Sound Effects from Pixabay
