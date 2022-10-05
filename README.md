@@ -100,7 +100,7 @@ ___
 ## Testing
 
 ### Testing User Stories
-Several members of my friends and family were asked to manually test the following features:
+Several members of my friends and family, of varying ages from child to retired,  were asked to manually test the following features:
 
 * As a player, I want the game to be fun and engaging.
     - Everyone who tested the game reported that they enjoyed playing it.
@@ -120,7 +120,7 @@ Several members of my friends and family were asked to manually test the followi
 * As a player, I want to be able to replay the game inifinite times, with the cards in different positions each time.
     - All testers confirmed that the Start Again button worked as planned, and that the cards positions were randomised every time they played again.
     - Players were asked to play more than twice, with some playing up to ten times, and confirmed the cards were in different positions every time the game was restarted.
-    
+
 ### Code Validation
 ### Accessibility
 ### Tools Testing
@@ -138,9 +138,30 @@ It was tested on the following devices:
 * Google Pixel 6 mobile phone
 * Samsung Galaxy S20 FE mobile phone
 * Apple iPhone 12 mini phone
-* Apple iPad 
+* Apple iPad 7th gen.
 
-The game was tested by several members of my friends and family. They all reported that it worked without any functionality issues on all devices and browsers. They commented positively on the ease of use, and the clarity of the images, the only exception being on the iPhone mini, who reported that the words were too small to be easily read.  
+The game was tested by several members of my friends and family. They all reported that it worked without any functionality or responsivness issues on all devices and browsers. They commented positively on the ease of use, and the clarity of the images, the only exception being on the iPhone mini, who reported that the words were too small to be easily read.  
+
+I manually tested the game throughout the process using Chrome DevTools to test the responsiveness on different screen sizes during the development process. Coding alert boxes allowed me to test that functions were working during the process.
+
+Feature | Outcome | Pass/Fail  
+--- | --- | ---
+Home Page | The home page loads as expected | Pass
+Navigation Bar | Links are working accurately, hover effect working | Pass
+Start Game Button | Link is working accurately, onclick effect working | Pass
+Game Board | The game board loads as expected | Pass
+Memory Cards | Cards load face down | Pass
+Random function | The cards' positions are randomised as expected | Pass
+Flip function | Cards have a 3-d flip effect as expected | Pass
+Matching Pairs | Matching pairs stay face up | Pass
+Mis-matched cards | Mismatched cards flip face down again | Pass
+Game Board locked | Board is locked during flip function, unable to click on a third card | Pass
+Sound | Correct Sound and Incorrect sound play correctly | Pass
+Move counter | The number of moves are incremented correctly and are displayed accurately on both the game board and the feedback overlay| Pass
+Overlay modal | This appears as expected when the game is complete, the information on it is accurate | Pass
+Play Again button | This reloads the game page as expected, and closes the overlay | Pass
+Game page reloads | the game page reloads | Pass
+
 
 [Back to top](#table-of-contents)
 ___
