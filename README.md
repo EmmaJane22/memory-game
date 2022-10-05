@@ -129,7 +129,10 @@ All code passed in [JSHint JavaScript Validator](https://jshint.com/).
 ![JS Hint image](assets/readme-images/jshint.jpg)
 
 ### W3C Markup Validator
+![W3C image](assets/readme-images/w3c-home.jpg)
+
 ### W3C CSS Validator
+![W3C CSS image](assets/readme-images/w3c-css.jpg)
 
 ### Accessibility
 ### Lighthouse
@@ -152,7 +155,7 @@ It was tested on the following devices:
 * Samsung S7 mobile phone
 * Google Pixel 6 mobile phone
 * Samsung Galaxy S20 FE mobile phone
-* Apple iPhone 12 mini phone
+* Apple iPhone 12 mini
 * Apple iPad 7th gen.
 
 The game was tested by several members of my friends and family. They all reported that it worked without any functionality or responsivness issues on all devices and browsers. They commented positively on the ease of use, and the clarity of the images, the only exception being on the iPhone mini, who reported that the words were too small to be easily read.  
