@@ -255,6 +255,7 @@ button:active {
 
 }
 
+/* --- large phones --- */
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 2.5rem;
@@ -282,5 +283,12 @@ button:active {
 
     .modal-content {
         width: 80%;
+    }
+}
+
+/* --- small phones --- */
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 1.5rem;
     }
 }
