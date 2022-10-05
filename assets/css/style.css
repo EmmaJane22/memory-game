@@ -291,4 +291,11 @@ button:active {
     h1 {
         font-size: 1.5rem;
     }
+
+    .instructions p {
+        text-align: center;
+        font-size: 0.8rem;
+        font-family: 'Roboto', sans-serif;
+    }  
+
 }
