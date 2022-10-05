@@ -63,6 +63,7 @@ ___
 ### Colour Scheme
 [Colormind](http://colormind.io/) was used to create a calming, neutral colour scheme that would not distract from the game board.
 ![colour scheme image](assets/readme-images/color-scheme.png)
+Following user feedback, a gradient effect was added to the page background to add a bit more interest.
 
 ### Typography
 ### Wireframes
