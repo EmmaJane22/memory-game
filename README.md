@@ -122,8 +122,23 @@ Several members of my friends and family, of varying ages from child to retired,
     - Players were asked to play more than twice, with some playing up to ten times, and confirmed the cards were in different positions every time the game was restarted.
 
 ### Code Validation
+### JSHint JavaScript Validator
+
+All code passed in [JSHint JavaScript Validator](https://jshint.com/).
+
+![JS Hint image](assets/readme-images/jshint.jpg)
+
+### W3C Markup Validator
+### W3C CSS Validator
+
 ### Accessibility
+### Lighthouse
+
 ### Tools Testing
+### Chrome DevTools
+I manually tested the game throughout the process using Chrome DevTools. Coding alert boxes allowed me to test that functions were working during the process. The game was tested on DevToolsto check the responsiveness on different screen sizes during the development process. 
+
+
 ### Manual Testing
 The game was tested using the following browsers:
 * Chrome
@@ -142,7 +157,6 @@ It was tested on the following devices:
 
 The game was tested by several members of my friends and family. They all reported that it worked without any functionality or responsivness issues on all devices and browsers. They commented positively on the ease of use, and the clarity of the images, the only exception being on the iPhone mini, who reported that the words were too small to be easily read.  
 
-I manually tested the game throughout the process using Chrome DevTools to test the responsiveness on different screen sizes during the development process. Coding alert boxes allowed me to test that functions were working during the process.
 
 Feature | Outcome | Pass/Fail  
 --- | --- | ---
@@ -160,7 +174,7 @@ Sound | Correct Sound and Incorrect sound play correctly | Pass
 Move counter | The number of moves are incremented correctly and are displayed accurately on both the game board and the feedback overlay| Pass
 Overlay modal | This appears as expected when the game is complete, the information on it is accurate | Pass
 Play Again button | This reloads the game page as expected, and closes the overlay | Pass
-Game page reloads | the game page reloads | Pass
+404 page | NEED TO TEST | Pass
 
 
 [Back to top](#table-of-contents)
