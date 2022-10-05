@@ -31,13 +31,14 @@ ___
     3. [Accessibility](#accessibility)
     4. [Tools Testing](#tools-testing)
     5. [Manual Testing](#manual-testing)
-5. [Finished Product](#finished-product)
-6. [Deployment](#deployment)
+5. [Bugs & Fixes](#bugs-&-fixes)
+6. [Finished Product](#finished-product)
+7. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
-7. [Credits](#credits)
+8. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
-8. [Acknowledgements](#acknowledgements)
+9. [Acknowledgements](#acknowledgements)
 
 ___
 
@@ -180,6 +181,13 @@ Overlay modal | This appears as expected when the game is complete, the informat
 Play Again button | This reloads the game page as expected, and closes the overlay | Pass
 404 page | NEED TO TEST | Pass
 
+
+[Back to top](#table-of-contents)
+___
+## Bugs & Fixes
+* W3C validator showed an unnecessary forward slash in the image self-closing tags, which I then removed.
+* JS Hint showed an unexpected expression within the checkForMatch function, which I changed to an if/else statement.
+* Javascript link unnecessary on Home page, so I removed that.  
 
 [Back to top](#table-of-contents)
 ___
