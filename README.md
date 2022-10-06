@@ -89,56 +89,67 @@ The main font used for headings, links and buttons is Caveat, with Cursive as a 
 ___
 
 ## Features
-___
 
 ### Welcome Page
-* The website has been designed to be simplistic in appearance.
-* There is a small naviagtion bar at the top of the page, enabling users to nativate easily between the home page and the game.
-* The instructions are on a white section which contrasts with the page background, in order to be visually distinguishable.
-* The blue background has a gradient to give it slightly more interest than a solid background.
-* The speech bubble image features different flags as the game could potentially be expanded in future to cover more than just German vocabulary.
-* The instructions are simple to follow and direct the user to start the game by clicking on the Start button.
-* The start button scales up to give the user feedback when it is clicked.
+
+- The website has been designed to be simplistic in appearance.
+- There is a small naviagtion bar at the top of the page, enabling users to nativate easily between the home page and the game.
+- The instructions are on a white section which contrasts with the page background, in order to be visually distinguishable.
+- The blue background has a gradient to give it slightly more interest than a solid background.
+- The speech bubble image features different flags as the game could potentially be expanded in future to cover more than just German vocabulary.
+- The instructions are simple to follow and direct the user to start the game by clicking on the Start button.
+- The start button scales up to give the user feedback when it is clicked.
 
 ![Home image](assets/readme-images/home-page.jpg)
 
 ### Game Page
-* The game page features the same colour scheme for consistency.
-* It has the same small navigation bar at the top of the page, enabling users to easily naviagate back to the instructions or restart the game.
-* The links have a hover feature which causes them to change from black to white when the user hovers their cursor over them.
 
- ![NavBar image](assets/readme-images/nav-bar.jpg)
+- The game page features the same colour scheme for consistency.
+- It has the same small navigation bar at the top of the page, enabling users to easily naviagate back to the instructions or restart the game.
+- The links have a hover feature which causes them to change from black to white when the user hovers their cursor over them.
+
+![NavBar image](assets/readme-images/nav-bar.jpg)
 
 ### Score Area
-* Directly underneath the title, there is a move counter, giving the user immediate feedback on the number of moves they have made.
+
+- Directly underneath the title, there is a move counter, giving the user immediate feedback on the number of moves they have made.
     
-#### Game Area
-* The memory card backs feature the German flag. This was chosen with the potential of future features using different flags for different languages.
+### Game Area
+
+- The memory card backs feature the German flag. This was chosen with the potential of future features using different flags for different languages.
 
 ![Game image](assets/readme-images/game-page.jpg)      
 
-* The front face of the cards feature an animal and the animal's name in English on one card and German on the matching card.
+- The front face of the cards feature an animal and the animal's name in English on one card and German on the matching card.
     
-* After the user has clicked on two cards the game board locks. The cards remain face up if they are a matching pair and a positive upbeat sound plays automatically, giving the user immediate feedback. If the cards do not match, they will flip back to the back face and a negative, low sound plays, indicating the user was not succesful on that turn. The game back then unlocks, allowing the user to chose two more cards.
+- After the user has clicked on two cards the game board locks. The cards remain face up if they are a matching pair and a positive upbeat sound plays automatically, giving the user immediate feedback. If the cards do not match, they will flip back to the back face and a negative, low sound plays, indicating the user was not succesful on that turn. The game back then unlocks, allowing the user to chose two more cards.
 
 ![Card Match image](assets/readme-images/card-match.jpg)
     
 ### Congratulations Modal
-* Once all of the cards are matched, a modal overlay pops up with a congratulatory message, including the final move count. This enables users to know what score they could try to beat if they play again.
-* The modal features a Play Again button, which closes the modal and reloads the page, allowing users to play again.
-* The modal will also close if the user clicks around the outside of it.
+
+- Once all of the cards are matched, a modal overlay pops up with a congratulatory message, including the final move count. This enables users to know what score they could try to beat if they play again.
+- The modal features a Play Again button, which closes the modal and reloads the page, allowing users to play again.
+- The modal will also close if the user clicks around the outside of it.
 
 ![modal image](assets/readme-images/modal.jpg)
 
 ### Replay
-* When the game page is reloaded, the memory cards shuffle and appear in different locations. This allows the user to play the game again, with the same level of challenge.
+
+- When the game page is reloaded, the memory cards shuffle and appear in different locations. This allows the user to play the game again, with the same level of challenge.
         
 ![New Game image](assets/readme-images/new-game.jpg)
 
 ### 404 Page
- A custom 404 page has been created which directs the user back to the game page.
+
+A custom 404 page has been created which directs the user back to the game page.
 
 ![404 page image](assets/readme-images/404.jpg)
+
+### Future Features
+- Additional game levels to increase challenge, for example; easy (12 cards), medium (16 cards) and hard (20 cards).
+- Timer feature: to feedback to the user how quickly they completed the game
+- Different language options e.g. Spanish, French.
 
 [Back to top](#table-of-contents)
 ___
@@ -193,25 +204,45 @@ All code passed in [JSHint JavaScript Validator](https://jshint.com/).
 ![JS Hint image](assets/readme-images/jshint.jpg)
 
 ### W3C Markup Validator
-Home page: all code passed in [W3C HTML Validator](https://validator.w3.org/).
+
+- Home page
+    - All code passed in [W3C HTML Validator](https://validator.w3.org/).
+
 ![W3C image](assets/readme-images/w3c-home.jpg)
 
-Game page: three warnings were present in [W3C HTML Validator](https://validator.w3.org/).
+
+- Game page
+    - Three warnings were present in [W3C HTML Validator](https://validator.w3.org/).
+
 ![W3C image](assets/readme-images/w3c-game.jpg)
+
 Two warnings relate to headers missing from sections of the page that do not require headings.
   
 
 ### W3C CSS Validator
+
 All code passed in [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
 ![W3C CSS image](assets/readme-images/w3c-css.jpg)
 
 ### Accessibility
 ### Lighthouse
+The site has been run through the Lighthouse test on Google Developer Tools and achieved the following results:
+
+Mobile:
+
+![Lighthouse mobile image](assets/readme-images/lighthouse-mobile.jpg)
+
+Desktop:
+
+![Lighthouse desktop image](assets/readme-images/lighthouse-desktop.jpg)
+
 
 ### Tools Testing
 ### Chrome DevTools
 I manually tested the game throughout the process using Chrome DevTools. Coding alert boxes allowed me to test that functions were working during the process. The game was tested on DevToolsto check the responsiveness on different screen sizes during the development process. 
 
+The final game was played through with DevTools running in order to confirm that there are no console errors. 
 
 ### Manual Testing
 The game was tested using the following browsers:
@@ -248,11 +279,12 @@ Sound | Correct Sound and Incorrect sound play correctly | Pass
 Move counter | The number of moves are incremented correctly and are displayed accurately on both the game board and the feedback overlay| Pass
 Overlay modal | This appears as expected when the game is complete, the information on it is accurate | Pass
 Play Again button | This reloads the game page as expected, and closes the overlay | Pass
-404 page | NEED TO TEST | Pass
+404 page | Custom 404 error page loads when people try to access nonexistent pages on the site, Back to Game button navigates users back to the game page | Pass
 
 
 [Back to top](#table-of-contents)
 ___
+
 ## Bugs & Fixes
 * W3C validator showed an unnecessary forward slash in the image self-closing tags, which I then removed.
 * JS Hint showed an unexpected expression within the checkForMatch function, which I changed to an if/else statement.
@@ -262,11 +294,8 @@ ___
 [Back to top](#table-of-contents)
 ___
 
-## Finished Product
-[Back to top](#table-of-contents)
-___
-
 ## Deployment
+
 ### GitHub Pages
 This website was developed using GitPod, which was then committed and pushed to GitHub using the GitPod terminal.
 
@@ -302,6 +331,7 @@ ___
 * Adding sound effects: https://stackoverflow.com/questions/9419263/how-to-play-audio
 * Creating a modal: https://www.w3schools.com/howto/howto_css_modals.asp
 * Adding a favicon: https://www.w3schools.com/html/html_favicon.asp
+* Creating a 404.html: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
 
 ### Media
 * Sound Effects from Pixabay
