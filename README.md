@@ -226,7 +226,7 @@ All code passed in [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 ![W3C CSS image](assets/readme-images/w3c-css.jpg)
 
 ### Accessibility
-### Lighthouse
+#### Lighthouse
 The site has been run through the Lighthouse test on Google Developer Tools and achieved the following results:
 
 Mobile:
@@ -239,7 +239,7 @@ Desktop:
 
 
 ### Tools Testing
-### Chrome DevTools
+#### Chrome DevTools
 I manually tested the game throughout the process using Chrome DevTools. Coding alert boxes allowed me to test that functions were working during the process. The game was tested on DevToolsto check the responsiveness on different screen sizes during the development process. 
 
 The final game was played through with DevTools running in order to confirm that there are no console errors. 
