@@ -1,5 +1,7 @@
 # Word Wise Memory Game - Emma Scott
 -------------------------------------
+![Mockup image](assets/readme-images/game-image.jpg)
+
 ## Introduction
 Welcome to my Milestone Project 2. Word Wise is a language-themed memory card game, based on the classic game of Pelmanism. This simple,fun game is designed to test your memory and support the learning of animal names in German. It has been developed with my son in mind, as he is learning German at GCSE level, but is also an enjoyable game for children and adults alike.
 
@@ -67,6 +69,8 @@ ___
 Following user feedback, a gradient effect was added to the page background to add a bit more interest.
 
 ### Typography
+The main font used for headings, links and buttons is Caveat, with Cursive as a fall-back font. This is paired with Roboto as a plain font to make the instructions easy to read. Roboto has Sans-Serif as a fall-back font.
+
 ### Wireframes
 [Balsamiq](https://balsamiq.com/) was used to create wireframes of the game, showing the placement of different elements.
 
