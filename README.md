@@ -3,7 +3,7 @@
 ![Mockup image](assets/readme-images/game-image.jpg)
 
 ## Introduction
-Welcome to my Milestone Project 2. Word Wise is a language-themed memory card game, based on the classic game of Pelmanism. This simple,fun game is designed to test your memory and support the learning of animal names in German. It has been developed with my son in mind, as he is learning German at GCSE level, but is also an enjoyable game for children and adults alike.
+Welcome to my Milestone Project 2. Word Wise is a language-themed memory card game, based on the classic game of Pelmanism. This simple, fun game is designed to test your memory and support the learning of animal names in German. It has been developed with my son in mind, as he is learning German at GCSE level, but is also an enjoyable game for children and adults alike.
 
 The game is based on a deck of 12 cards, placed face down, and the player 'flips' two cards face over each time. The object of the game is to find matching pairs of cards in the least number of moves.
 
@@ -59,7 +59,7 @@ ___
 * As a player, I want to be able to easily navigate to the game and back to the rules if necessary.
 * As a player, I want to know if the two cards chosen are a matching pair or not.
 * As a player, I want to know how many moves I have used as I play, and at the end of the game.
-* As a player, I want to be able to replay the game inifinite times, with the cards in different positions each time.
+* As a player, I want to be able to replay the game infinite times, with the cards in different positions each time.
 
 ### Colour Scheme
 [Colormind](http://colormind.io/) was used to create a calming, neutral colour scheme that would not distract from the game board.
@@ -93,7 +93,7 @@ ___
 ### Welcome Page
 
 - The website has been designed to be simplistic in appearance.
-- There is a small naviagtion bar at the top of the page, enabling users to nativate easily between the home page and the game.
+- There is a small navigation bar at the top of the page, enabling users to navigate easily between the home page and the game.
 - The instructions are on a white section which contrasts with the page background, in order to be visually distinguishable.
 - The blue background has a gradient to give it slightly more interest than a solid background.
 - The speech bubble image features different flags as the game could potentially be expanded in future to cover more than just German vocabulary.
@@ -105,7 +105,7 @@ ___
 ### Game Page
 
 - The game page features the same colour scheme for consistency.
-- It has the same small navigation bar at the top of the page, enabling users to easily naviagate back to the instructions or restart the game.
+- It has the same small navigation bar at the top of the page, enabling users to easily navigate back to the instructions or restart the game.
 - The links have a hover feature which causes them to change from black to white when the user hovers their cursor over them.
 
 ![NavBar image](assets/readme-images/nav-bar.jpg)
@@ -122,7 +122,7 @@ ___
 
 - The front face of the cards feature an animal and the animal's name in English on one card and German on the matching card.
     
-- After the user has clicked on two cards the game board locks. The cards remain face up if they are a matching pair and a positive upbeat sound plays automatically, giving the user immediate feedback. If the cards do not match, they will flip back to the back face and a negative, low sound plays, indicating the user was not succesful on that turn. The game back then unlocks, allowing the user to chose two more cards.
+- After the user has clicked on two cards the game board locks. The cards remain face up if they are a matching pair and a positive upbeat sound plays automatically, giving the user immediate feedback. If the cards do not match, they will flip back to the back face and a negative, low sound plays, indicating the user was not successful on that turn. The game back then unlocks, allowing the user to chose two more cards.
 
 ![Card Match image](assets/readme-images/card-match.jpg)
     
@@ -183,8 +183,8 @@ Several members of my friends and family, of varying ages from child to retired,
     - All users reported that the rules were clear, concise and easy to read without being too verbose.
 * As a player, I want to be able to easily navigate to the game and back to the rules if necessary.
     - Everyone reported being able to easily find their way around the game.
-    - All hyerlinks were tested and worked correctly.
-    - All users reported being able to naviagte back to the rules.
+    - All hyperlinks were tested and worked correctly.
+    - All users reported being able to navigate back to the rules.
 * As a player, I want to know if the two cards chosen are a matching pair or not.
     - Everyone confirmed that the sound effects gave them appropriate feedback on whether the cards were a match.
     - All testers confirmed the sound effects were 100% correct for all moves.
@@ -192,7 +192,7 @@ Several members of my friends and family, of varying ages from child to retired,
 * As a player, I want to know how many moves I have used as I play, and at the end of the game.
     - All users confirmed the number of moves to be accurate.
     - Some users said they found it to be a useful feature to try to beat their own moves on another turn. Some users reported they were not interested by this feature.
-* As a player, I want to be able to replay the game inifinite times, with the cards in different positions each time.
+* As a player, I want to be able to replay the game infinite times, with the cards in different positions each time.
     - All testers confirmed that the Start Again button worked as planned, and that the cards positions were randomised every time they played again.
     - Players were asked to play more than twice, with some playing up to ten times, and confirmed the cards were in different positions every time the game was restarted.
 
@@ -240,7 +240,7 @@ Desktop:
 
 ### Tools Testing
 #### Chrome DevTools
-I manually tested the game throughout the process using Chrome DevTools. Coding alert boxes allowed me to test that functions were working during the process. The game was tested on DevToolsto check the responsiveness on different screen sizes during the development process. 
+I manually tested the game throughout the process using Chrome DevTools. Coding alert boxes allowed me to test that functions were working during the process. The game was tested on DevTools to check the responsiveness on different screen sizes during the development process. 
 
 The final game was played through with DevTools running in order to confirm that there are no console errors. 
 
@@ -279,7 +279,7 @@ Sound | Correct Sound and Incorrect sound play correctly | Pass
 Move counter | The number of moves are incremented correctly and are displayed accurately on both the game board and the feedback overlay| Pass
 Overlay modal | This appears as expected when the game is complete, the information on it is accurate | Pass
 Play Again button | This reloads the game page as expected, and closes the overlay | Pass
-404 page | Custom 404 error page loads when people try to access nonexistent pages on the site, Back to Game button navigates users back to the game page | Pass
+404 page | Custom 404 error page loads when people try to access non-existent pages on the site, Back to Game button navigates users back to the game page | Pass
 
 
 [Back to top](#table-of-contents)
@@ -306,7 +306,7 @@ The project was deployed using these steps:
 2. Go to your repository.
 3. On top right click Settings.
 4. Scroll down to GitHub Pages. Under source, select none then select main/master branch from the dropdown and press save.
-5. The page will be atomatically refreshed and a link will be generated for your live site.
+5. The page will be automatically refreshed and a link will be generated for your live site.
 
 ### Cloning
 To make a local clone of a Github repository:
