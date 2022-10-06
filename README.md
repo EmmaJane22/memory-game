@@ -19,11 +19,9 @@ ___
     5. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
-    2. [Home Section](#home-section)
-    3. [Instructions Section](#instructions-section)
-    4. [Game section](#game-section)
-    5. [Result Section](#result-section)
-    6. [404 Error Page](#404-error-page)
+    2. [Welcome Page](#welcome-page)
+    3. [Game Page](#game-page)
+    4. [404 Error Page](#404-error-page)
 3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -105,19 +103,31 @@ ___
 * #### Game Page
     * The game page features the same colour scheme for consistency.
     * It has the same small navigation bar at the top of the page, enabling users to easily naviagate back to the instructions or restart the game.
+
+ ![NavBar image](assets/readme-images/nav-bar.jpg)
+
     * Score Area
         * Directly underneath the title, there is a move counter, giving the user immediate feedback on the number of moves they have made.
     
     * Game Area
         * The memory card backs feature the German flag. This was chosen with the potential of future features using different flags for different languages.
+![Game image](assets/readme-images/game-page.jpg)        
         * The front face of the cards feature an animal and the animal's name in English on one card and German on the matching card.
         * After the user has clicked on two cards the game board locks. The cards remain face up if they are a matching pair and a positive upbeat sound plays automatically, giving the user immediate feedback. If the cards do not match, they will flip back to the back face and a negative, low sound plays, indicating the user was not succesful on that turn. The game back then unlocks, allowing the user to chose two more cards.
+
+![Card Match image](assets/readme-images/card-match.jpg)
     
     * Modal
         * Once all of the cards are matched, a modal overlay pops up with a congratulatory message, including the final move count. This enables users to know what score they could try to beat if they play again.
         * The modal features a Play Again button, which closes the modal and reloads the page, allowing users to play again.
         * The modal will also close if the user clicks around the outside of it.
 
+![modal image](assets/readme-images/modal.jpg)
+
+    * Replay
+        * When the game page is reloaded, the memory cards shuffle and appear in different locations. This allows the user to play the game again, with the same level of challenge.
+        
+![New Game image](assets/readme-images/new-game.jpg)
 
 [Back to top](#table-of-contents)
 ___
