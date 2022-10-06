@@ -92,28 +92,28 @@ ___
 ___
 
 ### Welcome Page
-    * The website has been designed to be simplistic in appearance.
-    * There is a small naviagtion bar at the top of the page, enabling users to nativate easily between the home page and the game.
-    * The instructions are on a white section which contrasts with the page background, in order to be visually distinguishable.
-    * The blue background has a gradient to give it slightly more interest than a solid background.
-    * The speech bubble image features different flags as the game could potentially be expanded in future to cover more than just German vocabulary.
-    * The instructions are simple to follow and direct the user to start the game by clicking on the Start button.
-    * The start button scales up to give the user feedback when it is clicked.
+* The website has been designed to be simplistic in appearance.
+* There is a small naviagtion bar at the top of the page, enabling users to nativate easily between the home page and the game.
+* The instructions are on a white section which contrasts with the page background, in order to be visually distinguishable.
+* The blue background has a gradient to give it slightly more interest than a solid background.
+* The speech bubble image features different flags as the game could potentially be expanded in future to cover more than just German vocabulary.
+* The instructions are simple to follow and direct the user to start the game by clicking on the Start button.
+* The start button scales up to give the user feedback when it is clicked.
 
 ![Home image](assets/readme-images/home-page.jpg)
 
 ### Game Page
-    * The game page features the same colour scheme for consistency.
-    * It has the same small navigation bar at the top of the page, enabling users to easily naviagate back to the instructions or restart the game.
-    * The links have a hover feature which causes them to change from black to white when the user hovers their cursor over them.
+* The game page features the same colour scheme for consistency.
+* It has the same small navigation bar at the top of the page, enabling users to easily naviagate back to the instructions or restart the game.
+* The links have a hover feature which causes them to change from black to white when the user hovers their cursor over them.
 
  ![NavBar image](assets/readme-images/nav-bar.jpg)
 
 ### Score Area
-    * Directly underneath the title, there is a move counter, giving the user immediate feedback on the number of moves they have made.
+* Directly underneath the title, there is a move counter, giving the user immediate feedback on the number of moves they have made.
     
-* #### Game Area
-    * The memory card backs feature the German flag. This was chosen with the potential of future features using different flags for different languages.
+#### Game Area
+* The memory card backs feature the German flag. This was chosen with the potential of future features using different flags for different languages.
 
 ![Game image](assets/readme-images/game-page.jpg)      
 
@@ -124,18 +124,21 @@ ___
 ![Card Match image](assets/readme-images/card-match.jpg)
     
 ### Congratulations Modal
-    * Once all of the cards are matched, a modal overlay pops up with a congratulatory message, including the final move count. This enables users to know what score they could try to beat if they play again.
-    * The modal features a Play Again button, which closes the modal and reloads the page, allowing users to play again.
-    * The modal will also close if the user clicks around the outside of it.
+* Once all of the cards are matched, a modal overlay pops up with a congratulatory message, including the final move count. This enables users to know what score they could try to beat if they play again.
+* The modal features a Play Again button, which closes the modal and reloads the page, allowing users to play again.
+* The modal will also close if the user clicks around the outside of it.
 
 ![modal image](assets/readme-images/modal.jpg)
 
 ### Replay
-    * When the game page is reloaded, the memory cards shuffle and appear in different locations. This allows the user to play the game again, with the same level of challenge.
+* When the game page is reloaded, the memory cards shuffle and appear in different locations. This allows the user to play the game again, with the same level of challenge.
         
 ![New Game image](assets/readme-images/new-game.jpg)
 
 ### 404 Page
+ A custom 404 page has been created which directs the user back to the game page.
+
+![404 page image](assets/readme-images/404.jpg)
 
 [Back to top](#table-of-contents)
 ___
